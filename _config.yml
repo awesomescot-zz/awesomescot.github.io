@@ -1,0 +1,21 @@
+# Site settings
+title: Awesome Scot's Awesome Blog
+header-img: img/home-bg.png
+email: scot@flatironschool.com
+copyright_name: awesomescot
+description: > # this means to ignore newlines until "baseurl:"
+  Awesome Blog
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  awesomescot
+learn_profile: awesomescot
+email_username: scot@flatironschool.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
